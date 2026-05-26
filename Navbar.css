@@ -1,14 +1,14 @@
 /* There's a picture frame on the whole web page */
 .picture-frame{
     border:  12px solid rgb(172, 172, 3);
-    width: 98.5%;
+    width: 98%;
     height: 150vh;
 }
 
 body{
     margin: 0%;
-    /* background-color: black;
-    color: white; */
+    background-color: black;
+    color: white;
 }
 
 nav{
@@ -19,8 +19,8 @@ nav{
     box-sizing: border-box;
     top: 2%;
     position: fixed;
-    width: 98.5%;
-    margin-left: -0.1%;
+    width: 98%;
+    margin-left: -0.001%;
 } 
 
 img{

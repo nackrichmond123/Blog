@@ -1,0 +1,36 @@
+#about-us-section h1{
+    text-align: center;
+    font-weight: bold;
+}
+
+#about-us-section{
+    margin: 9%;
+}
+
+.about-us-containers{
+    display: flex;
+    justify-content: space-between;
+}
+
+#message{
+    /* border: 2px solid white; */
+    width: 60%;
+    height: 70vh;   
+}
+
+#message p{
+    font-size: 1.3rem;
+    color: rgb(182, 179, 179);
+}
+
+#firstsight{
+    font-style: italic;
+    color: rgb(172, 172, 3);
+}
+
+#image{
+    border: 2px solid white;
+    width: 35%;
+    height: 70vh;   
+}
+

@@ -1,68 +1,68 @@
-#latest-section{
+#popular-section{
     margin: 9%;
-    margin-top: -0.5%;
+    margin-top: -6%;
 }
 
-#latest{
+#popular{
     font-size: 27px;
     font-family: Arial, Helvetica, sans-serif;
     color: gray;
 }
 
-.containers{
+/* .containers{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 50px;
-    margin-bottom: 40px;
-}
+    margin-bottom: 50px;
+} */
 
-.container{
-    /* border: 2px solid white; */
+/* .container{
+    border: 2px solid white;
     width: 110%;
     height: 85vh;
     border-radius: 15px;
-}
+} */
 
 /* Each blog content */
-.image-box{
-    /* border: 2px solid white; */
+/* .image-box{
+    border: 2px solid white;
     height: 40vh;
     border-radius: 15px;
 
-}
+} */
 
-.image-box img{
+/* .image-box img{
     width: 100%;
     background-size: 100% 100%;
     height: 40vh;
     border-radius: 15px;
-}
+} */
 
-.name{
+/* .name{
     font-size: 1.2rem;
     font-weight: bold;
-}
+} */
 
-.topic-sentence{
+/* .topic-sentence{
     font-size: 1.2rem;
-}
+} */
 
-.about{
+/* .about{
     font-size: 1rem;
     color: rgb(182, 179, 179);
-}
+} */
 
-.sender-name{
+/* .sender-name{
     font-size: 1rem;
     color: rgb(182, 179, 179);
-}
+} */
 
-.date-time{
+/* .date-time{
     font-size: 1rem;
     color: rgb(182, 179, 179);  
-}
+} */
 
-#latest-section a{
+#popular-section a{
     margin-left: 47%;
     font-size: 20px;
     color: rgb(172, 172, 3);;

@@ -2,7 +2,7 @@
 .picture-frame{
     border:  12px solid rgb(172, 172, 3);
     width: 98%;
-    height: 505vh;
+    height: 500.5vh;
 }
 
 body{
@@ -68,5 +68,6 @@ nav button a{
     font-size: 21px;
     color: black;
 }
+
 
 

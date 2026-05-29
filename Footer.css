@@ -1,10 +1,52 @@
 footer{
-    background-color: black;
-    height: 30vh;
+    background-color: rgb(241, 240, 240);
+    height: 26vh;
+    color: black;
 }
 
 .footer-column{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     margin: 9%;
+    gap: 20px;
 }
+
+.column{
+    margin-top: 12%;
+}
+
+#my-blog{
+    font-size: 20px;
+    font-style: italic;
+}
+
+#copyright{
+    margin-top: 30%;
+    font-size: 18px;
+}
+
+#link a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    
+}
+
+#link{
+    margin-top: 29%;
+    display: flex;
+    gap: 15px;
+}
+
+#link a:hover{
+    text-decoration: underline  rgb(172, 172, 3);
+    font-weight: bold;
+}
+
+#media-icons{
+    margin-top: 29%;
+    display: flex;
+    gap: 20px;
+}
+
+

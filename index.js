@@ -1,12 +1,24 @@
 
-// const blog1 = {
-//     name : 'MACHINE LEARNING AND AI',
-//     image (){
-//         document.getElementById('image1').src = 'Images/try.png';
-//     }
-// };
 
-// blog1.image();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Create Image element
 // let Image = document.createElement('img');

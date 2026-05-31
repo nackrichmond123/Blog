@@ -20,22 +20,6 @@ const positionOne_Blog1 = {
 
 };
 
-function display_PositionOne_Blog1(){
-    positionOne_Blog1.Image();
-
-    document.getElementById('l-name1').innerHTML = positionOne_Blog1.Name;
-
-    document.getElementById('l-topic-sentence1').innerHTML = positionOne_Blog1.topicSentence;
-
-    document.getElementById('l-about1').innerHTML = positionOne_Blog1.aboutTheBlog;
-
-    document.getElementById('l-sender1-name').innerHTML = positionOne_Blog1.Sender;
-
-    document.getElementById('l-date-time1').innerHTML = positionOne_Blog1.datetime;
-}
-
-
-
 // Blog 2
 const positionOne_Blog2 = {
     
@@ -55,22 +39,6 @@ const positionOne_Blog2 = {
 
 };
 
-function display_positionOne_Blog2(){
-    positionOne_Blog2.Image();
-
-    document.getElementById('l-name1').innerHTML = positionOne_Blog2.Name;
-
-    document.getElementById('l-topic-sentence1').innerHTML = positionOne_Blog2.topicSentence;
-
-    document.getElementById('l-about1').innerHTML = positionOne_Blog2.aboutTheBlog;
-
-    document.getElementById('l-sender1-name').innerHTML = positionOne_Blog2.Sender;
-
-    document.getElementById('l-date-time1').innerHTML = positionOne_Blog2.datetime;
-}
-
-
-
 // Blog 3
 const positionOne_Blog3 = {
     Image(){
@@ -87,30 +55,6 @@ const positionOne_Blog3 = {
 
     datetime: '30th May,2026',
 };
-
-function display_positionOne_Blog3(){
-    positionOne_Blog3.Image();
-
-    document.getElementById('l-name1').innerHTML = positionOne_Blog3.Name;
-
-    document.getElementById('l-topic-sentence1').innerHTML = positionOne_Blog3.topicSentence;
-
-    document.getElementById('l-about1').innerHTML = positionOne_Blog3.aboutTheBlog;
-
-    document.getElementById('l-sender1-name').innerHTML = positionOne_Blog3.Sender;
-
-    document.getElementById('l-date-time1').innerHTML = positionOne_Blog3.datetime;
-}
-
-
-
-// By refreshing the page,it will randomly choose a blog to display for you.
-
-
-// pickRandomBlog_positionOne();
-
-
-
 
 
 // Latest Blog(Position Two).
@@ -132,23 +76,6 @@ const positionTwo_Blog1 = {
     datetime: '30th May,2026',   
 };
 
-function display_positionTwo_Blog1(){
-    positionTwo_Blog1.Image();
-
-    document.getElementById('l-name2').innerHTML = positionTwo_Blog1.Name;
-
-    document.getElementById('l-topic-sentence2').innerHTML = positionTwo_Blog1.topicSentence;
-
-    document.getElementById('l-about2').innerHTML = positionTwo_Blog1.aboutTheBlog;
-
-    document.getElementById('l-sender2-name').innerHTML = positionTwo_Blog1.Sender;
-
-    document.getElementById('l-date-time2').innerHTML = positionTwo_Blog1.datetime;
-}
-
-
-
-
 // Blog 2
 const positionTwo_Blog2 = {
     Image(){
@@ -165,25 +92,6 @@ const positionTwo_Blog2 = {
 
     datetime: '29th May,2026',
 }
-
-
-function display_positionTwo_Blog2(){
-    positionTwo_Blog2.Image();
-
-    document.getElementById('l-name2').innerHTML = positionTwo_Blog2.Name;
-
-    document.getElementById('l-topic-sentence2').innerHTML = positionTwo_Blog2.topicSentence;
-
-    document.getElementById('l-about2').innerHTML = positionTwo_Blog2.aboutTheBlog;
-
-    document.getElementById('l-sender2-name').innerHTML = positionTwo_Blog2.Sender;
-
-    document.getElementById('l-date-time2').innerHTML = positionTwo_Blog2.datetime;
-}
-
-
-
-
 
 // Blog 3
 const positionTwo_Blog3 = {
@@ -202,6 +110,135 @@ const positionTwo_Blog3 = {
     datetime: '29th May,2026',
 }
 
+
+// Latest Blog(Position Three).
+// Blog 1
+const positionThree_Blog1 = {
+    Image(){
+            document.getElementById('l-image3').src = 'Images/Latest-Blog-Images/Third-Position-Image/Anthony Gordon.jpeg';
+        },
+
+    Name: 'BARCELONA OFFICIALLY ANNOUNCE GORDON',
+
+    topicSentence: `Barcelona signs Anthony Gordon from Newcattle United`,
+
+    aboutTheBlog: 'Despite Barcelona being in financial crisis,they negotiated and sign Gordon in less than 48HRS,for a ransom of 80 million euros....',
+
+    Sender: 'Benvingut al Barça ',
+
+    datetime: '31th May,2026',  
+}
+
+// Blog 2
+const positionThree_Blog2 = {
+    Image(){
+            document.getElementById('l-image3').src = 'Images/Latest-Blog-Images/Third-Position-Image/Spotify Summer songs.jpeg';
+        },
+
+    Name: 'SUMMER SONGS ON SPOTIFY',
+
+    topicSentence: `The best selected songs for your summer tours`,
+
+    aboutTheBlog: 'The top 10 best songs on Spotify music for this summer are as listed above...',
+
+    Sender: 'Spotify ',
+
+    datetime: '31th May,2026',    
+}
+
+// Blog 3
+const positionThree_Blog3 = {
+    Image(){
+            document.getElementById('l-image3').src = 'Images/Latest-Blog-Images/Third-Position-Image/Paris UCL champions.jpeg';
+        },
+
+    Name: 'PARIS SAINT GERMAN UCL CHAMPIONS 2026',
+
+    topicSentence: `PSG lift the trophy back to back in the club history`,
+
+    aboutTheBlog: 'After a long 120 mins in play,PSG beat Arsenal FC on pernaties to win the UEFA champions back to back for the first time...',
+
+    Sender: 'Score 90 Sports',
+
+    datetime: '30th May,2026', 
+
+}
+
+
+
+
+
+
+function display_PositionOne_Blog1(){
+    positionOne_Blog1.Image();
+
+    document.getElementById('l-name1').innerHTML = positionOne_Blog1.Name;
+
+    document.getElementById('l-topic-sentence1').innerHTML = positionOne_Blog1.topicSentence;
+
+    document.getElementById('l-about1').innerHTML = positionOne_Blog1.aboutTheBlog;
+
+    document.getElementById('l-sender1-name').innerHTML = positionOne_Blog1.Sender;
+
+    document.getElementById('l-date-time1').innerHTML = positionOne_Blog1.datetime;
+}
+
+function display_positionOne_Blog2(){
+    positionOne_Blog2.Image();
+
+    document.getElementById('l-name1').innerHTML = positionOne_Blog2.Name;
+
+    document.getElementById('l-topic-sentence1').innerHTML = positionOne_Blog2.topicSentence;
+
+    document.getElementById('l-about1').innerHTML = positionOne_Blog2.aboutTheBlog;
+
+    document.getElementById('l-sender1-name').innerHTML = positionOne_Blog2.Sender;
+
+    document.getElementById('l-date-time1').innerHTML = positionOne_Blog2.datetime;
+}
+
+function display_positionOne_Blog3(){
+    positionOne_Blog3.Image();
+
+    document.getElementById('l-name1').innerHTML = positionOne_Blog3.Name;
+
+    document.getElementById('l-topic-sentence1').innerHTML = positionOne_Blog3.topicSentence;
+
+    document.getElementById('l-about1').innerHTML = positionOne_Blog3.aboutTheBlog;
+
+    document.getElementById('l-sender1-name').innerHTML = positionOne_Blog3.Sender;
+
+    document.getElementById('l-date-time1').innerHTML = positionOne_Blog3.datetime;
+}
+
+function display_positionTwo_Blog1(){
+    positionTwo_Blog1.Image();
+
+    document.getElementById('l-name2').innerHTML = positionTwo_Blog1.Name;
+
+    document.getElementById('l-topic-sentence2').innerHTML = positionTwo_Blog1.topicSentence;
+
+    document.getElementById('l-about2').innerHTML = positionTwo_Blog1.aboutTheBlog;
+
+    document.getElementById('l-sender2-name').innerHTML = positionTwo_Blog1.Sender;
+
+    document.getElementById('l-date-time2').innerHTML = positionTwo_Blog1.datetime;
+}
+
+function display_positionTwo_Blog2(){
+    positionTwo_Blog2.Image();
+
+    document.getElementById('l-name2').innerHTML = positionTwo_Blog2.Name;
+
+    document.getElementById('l-topic-sentence2').innerHTML = positionTwo_Blog2.topicSentence;
+
+    document.getElementById('l-about2').innerHTML = positionTwo_Blog2.aboutTheBlog;
+
+    document.getElementById('l-sender2-name').innerHTML = positionTwo_Blog2.Sender;
+
+    document.getElementById('l-date-time2').innerHTML = positionTwo_Blog2.datetime;
+}
+
 function display_positionTwo_Blog3(){
     positionTwo_Blog3.Image();
 
@@ -216,23 +253,57 @@ function display_positionTwo_Blog3(){
     document.getElementById('l-date-time2').innerHTML = positionTwo_Blog3.datetime;
 }
 
-
-
-
-// Latest Blog(Position Three).
-const positionThree_Blog1 = {
+function display_positionThree_Blog1(){
     
+    positionThree_Blog1.Image();
+
+    document.getElementById('l-name3').innerHTML = positionThree_Blog1.Name;
+
+    document.getElementById('l-topic-sentence3').innerHTML = positionThree_Blog1.topicSentence;
+
+    document.getElementById('l-about3').innerHTML = positionThree_Blog1.aboutTheBlog;
+
+    document.getElementById('l-sender3-name').innerHTML = positionThree_Blog1.Sender;
+
+    document.getElementById('l-date-time3').innerHTML = positionThree_Blog1.datetime;
+
+
 }
 
-const positionThree_Blog2 = {
+function display_positionThree_Blog2(){
     
+    positionThree_Blog2.Image();
+
+    document.getElementById('l-name3').innerHTML = positionThree_Blog2.Name;
+
+    document.getElementById('l-topic-sentence3').innerHTML = positionThree_Blog2.topicSentence;
+
+    document.getElementById('l-about3').innerHTML = positionThree_Blog2.aboutTheBlog;
+
+    document.getElementById('l-sender3-name').innerHTML = positionThree_Blog2.Sender;
+
+    document.getElementById('l-date-time3').innerHTML = positionThree_Blog2.datetime;
+
 }
 
-const positionThree_Blog3 = {
+function display_positionThree_Blog3(){
     
+    positionThree_Blog3.Image();
+
+    document.getElementById('l-name3').innerHTML = positionThree_Blog3.Name;
+
+    document.getElementById('l-topic-sentence3').innerHTML = positionThree_Blog3.topicSentence;
+
+    document.getElementById('l-about3').innerHTML = positionThree_Blog3.aboutTheBlog;
+
+    document.getElementById('l-sender3-name').innerHTML = positionThree_Blog3.Sender;
+
+    document.getElementById('l-date-time3').innerHTML = positionThree_Blog3.datetime;
+
 }
 
 
+// By refreshing the page,it will randomly choose a blog to display for you.
 function pickRandomBlog_positionOne(){
     let randomNumber = Math.random();
     
@@ -249,8 +320,9 @@ function pickRandomBlog_positionOne(){
         
     }
 }
-
 pickRandomBlog_positionOne();
+
+
 
 function pickRandomBlog_positionTwo(){
     let randomNumber = Math.random();
@@ -268,5 +340,26 @@ function pickRandomBlog_positionTwo(){
         
     }
 }
-
 pickRandomBlog_positionTwo();
+
+
+
+
+function pickRandomBlog_positionThree(){
+    let randomNumber = Math.random();
+    
+    if (randomNumber >= 0 && randomNumber <= 0.3) {
+        display_positionThree_Blog1();
+       
+
+    } else if (randomNumber > 0.3 && randomNumber <= 0.6) {
+        display_positionThree_Blog3();
+        
+
+    }else{
+        display_positionThree_Blog2();
+        
+    }
+}
+
+pickRandomBlog_positionThree();

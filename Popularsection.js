@@ -5,7 +5,7 @@
 const p_positionOne_Blog1 = {
     
     Image(){
-            document.getElementById('p-image1').src = 'Images/Popular-Blog-Images/First-Position-Image/WhatsApp Image 2026-06-01 at 5.02.07 AM.jpeg';
+            document.getElementById('p-image1').src = 'Images/Latest-Blog-Images/First-Position-Image/Alvarez.jpeg';
         },
 
     Name: 'ALVAREZ TRANSFER NEWS',

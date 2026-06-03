@@ -69,5 +69,10 @@ nav button a{
     color: black;
 }
 
+/* Working on the Responsiveness */
+#burgar{
+    display: none;
+}
+
 
 

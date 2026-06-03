@@ -27,7 +27,7 @@ const positionOne_Blog2 = {
             document.getElementById('l-image1').src = 'Images/Latest-Blog-Images/First-Position-Image/Arne Slot Sack.jpeg';
         },
 
-    Name: 'ARNE SLOT SACKED BY LIVERPOOL',
+    Name: 'ARNE SLOT SACKED',
 
     topicSentence: `It’s over between the Dutch manager and Liverpool after end of the season review`,
 
@@ -69,7 +69,7 @@ const positionTwo_Blog1 = {
     topicSentence: `The moment you’ve been waiting for is finally here! 
             Nominations for Face of STU 2026 are officially open`,
 
-    aboutTheBlog: 'Do you have what it takes to represent elegance, confidence, and impact? Or do you know someone who does? This is your chance to shine on a bigger stage!.Visit the SRC Women Commissioner’s Office or call 0540113368 for enquiries...',
+    aboutTheBlog: 'Do you have what it takes to represent elegance and impact? This is your chance to shine on a bigger stage!.Visit the SRC Women Commissioner’s Office or call 0540113368 for enquiries...',
 
     Sender: 'STU-SRC Official',
 

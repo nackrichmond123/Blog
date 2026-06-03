@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="Popularsection.css">
     <link rel="stylesheet" href="AboutUs.css">
     <link rel="stylesheet" href="Footer.css">
+    <link rel="stylesheet" href="Mobile414_Responsive.css">
 
 </head>
 <body>
@@ -24,8 +25,9 @@
                 <img src="Images/Logo/Logo.png" alt="Big N letter">
             </div>
 
+            <!-- <h1 id="closebtn">&times;</h1> -->
             <!-- Navigation links on the page -->
-            <ul>
+            <ul id="Navbar-links">
                 <li><a href="">Home</a></li>
                 <li><a href="#latest-section">Blog</a> <span class="arrow-down">&#8595</span></li>
                 <li><a href="#about-us-section">About us</a></li>
@@ -33,7 +35,10 @@
             </ul>
 
             <!-- Login link to either login og signin to the website  -->
-            <button><a href="">Login</a></button>
+            <button><a href="" id="login-btn">Login</a></button>
+
+            <!-- The burgar sign on the Mobile size -->
+            <button id="burgar">☰</button>
         </nav>
 
         <!-- Here we come to the header section of the page right after the navbar -->

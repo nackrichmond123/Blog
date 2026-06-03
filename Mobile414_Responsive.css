@@ -1,0 +1,179 @@
+@media (max-width:414px) {
+
+    ul{
+        display: none;
+    }
+
+    #burgar{
+        display: flex;
+        font-size: 28px;
+        margin-left: 1%;
+        background-color: rgb(73, 73, 55);
+        color: azure;
+        height: 42px;
+    } 
+    
+    .picture-frame{
+        width: 94%;
+        height: 987.4vh;
+    }
+
+    nav button{
+        margin-left: 45%;
+        width: 30%;
+    }
+
+      /* #ul{ */
+        /* display: grid;
+        grid-template-columns: repeat(1,1fr);
+        box-sizing: border-box;
+        gap: 10px;
+        position: fixed;
+        top: -0.5%;
+        margin-left: 62%;
+        background-color: white;
+        box-shadow: 0px 0px 5px gray;
+        padding: 3px;
+        width: 35%;
+        height: 50vh;
+    } */
+/*
+    #navbar-links a:hover{
+        border-radius: 10px;
+        width:100%;
+        font-size: 18px;
+    }
+
+    #navbar-links a{
+        padding: 15px;
+        box-sizing: border-box;
+    } */
+
+    header{
+        margin-left: 2%;
+    }
+
+    header h1{
+        font-size: 3.2rem;
+    }
+
+    .left-container p{
+        font-size: 20px;
+    }
+
+    #start-reading_btn{
+        width: 80%;
+    }
+
+    .right-container{
+        height: 55vh;
+        width: 55%;
+        margin-right: -8%;
+        margin-top: 5%;
+    }
+
+    #blogs{
+        font-size: 2rem;
+    }
+
+    .containers{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-left: -8%;
+        width: 105%;
+        gap: 200px;
+    }
+
+    .name{
+        font-size: 1.6rem;
+    }
+
+    .topic-sentence{
+        font-size: 1.6rem;
+    }
+
+    .about{
+        font-size: 1.5rem;
+    }
+
+    .sender-name{
+        font-size: 1.5rem;
+    }
+
+    .date-time{
+        font-size: 1.5rem;
+    }
+
+    #latest-section a{
+        margin-left: 30%;
+        margin-top: 50%;
+    }
+
+    #popular-section{
+        margin-top: 15%;
+    }
+
+    #latest-container-three{
+        margin-bottom: 40px;
+    }
+
+    #popular-section a{
+        margin-left: 30%;
+    }
+
+    .about-us-containers{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    #about-us-section{
+        margin: 2%;
+    }
+
+    #message p{
+        font-size: 1.6rem;
+    }
+
+    #popular-container-three{
+        margin-bottom: 50px;
+    }
+
+    #message{
+        width: 100%;
+        margin-bottom: 120px;
+    }
+
+    #image{
+        width: 100%;
+        
+    }
+
+    .footer-column{
+        display: grid;grid-template-columns: repeat(1,1fr);
+        margin: 10%;
+        gap: 1px;
+    }
+
+    footer{
+        height: 36vh;
+    
+
+    #my-blog{
+        margin-top: 10%;
+        text-align: center;
+    }
+
+    #copyright{
+        margin-top: -8%;
+    }
+
+    #link{
+        margin-top: 7%;
+        margin-left: 15%;
+    }
+
+    #media-icons{
+        margin-top: 7%;
+        margin-left: 15%;
+    }
+}

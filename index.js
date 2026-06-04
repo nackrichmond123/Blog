@@ -1,23 +1,50 @@
 
-// let navbarLinks = document.getElementById('Navbar-links');
+const navbarLinks = document.getElementById('Navbar-links');
 
-// const clickToShow = document.getElementById('burgar');
+const clickToShow = document.getElementById('burgar');
 
-// clickToShow.addEventListener('click',Show);
+clickToShow.addEventListener('click',clickToShowLinks);
 
-// function Show() {
-//     navbarLinks.style.display = 'grid';
-// }
+function clickToShowLinks() {
+    navbarLinks.style.display = 'grid';
+}
 
 
-// const closeButton = document.getElementById('closebtn');
 
-// closeButton.addEventListener('click',clickToCloseNavbar);
 
-// function clickToCloseNavbar(){
-//     navbarLinks.style.display = 'none';
-// }
+const closeAllLinks1 = document.querySelector('.blog-link');
 
+closeAllLinks1.addEventListener('click',clickToCloseNavbar1);
+
+function clickToCloseNavbar1(){
+    navbarLinks.style.display = 'none';
+}
+
+const closeAllLinks2 = document.querySelector('.aboutus-link');
+
+closeAllLinks2.addEventListener('click',clickToCloseNavbar2);
+
+function clickToCloseNavbar2(){
+    navbarLinks.style.display = 'none';
+}
+
+const closeAllLinks3 = document.querySelector('.contact-link');
+
+closeAllLinks3.addEventListener('click',clickToCloseNavbar3);
+
+function clickToCloseNavbar3(){
+    navbarLinks.style.display = 'none';
+}
+
+
+// The Start Reading Button
+let startReading = document.getElementById('start-reading_btn');
+
+startReading.addEventListener('click',clickToRead);
+
+function clickToRead(){
+    window.location.href = 'startingReading.html';
+}
 
 
 

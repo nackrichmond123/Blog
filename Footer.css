@@ -1,7 +1,8 @@
 footer{
-    background-color: rgb(241, 240, 240);
+    background-color: rgb(134, 131, 131);
     height: 26vh;
     color: black;
+    width: 100%;
 }
 
 .footer-column{

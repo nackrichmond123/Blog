@@ -1,8 +1,4 @@
-@media (max-width:414px) {
-
-    ul{
-        display: none;
-    }
+@media (max-width:414px){
 
     #burgar{
         display: flex;
@@ -14,8 +10,7 @@
     } 
     
     .picture-frame{
-        width: 94%;
-        height: 987.4vh;
+        border: none;
     }
 
     nav button{
@@ -23,31 +18,24 @@
         width: 30%;
     }
 
-      /* #ul{ */
-        /* display: grid;
+    ul{ 
+        display: none;
         grid-template-columns: repeat(1,1fr);
         box-sizing: border-box;
-        gap: 10px;
+        gap: 1px;
         position: fixed;
-        top: -0.5%;
-        margin-left: 62%;
-        background-color: white;
-        box-shadow: 0px 0px 5px gray;
-        padding: 3px;
-        width: 35%;
-        height: 50vh;
-    } */
-/*
-    #navbar-links a:hover{
-        border-radius: 10px;
-        width:100%;
-        font-size: 18px;
+        top: -2%;
+        margin-left: 72%;
+        background-color: rgb(64, 62, 62);
+        padding: 10px;
+        width: 30%;
+        height: 35vh;
+        border-radius: 15px;
     }
 
-    #navbar-links a{
-        padding: 15px;
-        box-sizing: border-box;
-    } */
+    ul li a{
+        font-size: 1.5rem;
+    }
 
     header{
         margin-left: 2%;
@@ -66,7 +54,7 @@
     }
 
     .right-container{
-        height: 55vh;
+        height: 48vh;
         width: 55%;
         margin-right: -8%;
         margin-top: 5%;
@@ -157,9 +145,10 @@
     footer{
         height: 36vh;
     
-
+    }
+        
     #my-blog{
-        margin-top: 10%;
+        margin-top: 3%;
         text-align: center;
     }
 
@@ -174,6 +163,8 @@
 
     #media-icons{
         margin-top: 7%;
-        margin-left: 15%;
+        margin-left: 20%;
+        display: flex;
+        gap: 5px;
     }
 }

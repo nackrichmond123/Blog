@@ -1,12 +1,12 @@
 body{
-    margin: 3%;
+    margin: 1%;
     background-color: rgb(7, 7, 23);
 }
 
 .container{
     box-shadow: 0px 0px 3px white;
     width: 24%;
-    height: 80vh;
+    height: 89vh;
     margin: auto;
     border-radius: 20px;
 }
@@ -28,10 +28,14 @@ h1{
 }
 
 #email{
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 #password{
+    margin-bottom: 5px;
+}
+
+#username{
     margin-bottom: 5px;
 }
 
@@ -55,7 +59,7 @@ h1{
     color: whitesmoke;
 }
 
-#login-btn{
+#sign-up-btn{
    margin-top: 10%;
    margin-left: 8%;
    width: 82%;
@@ -73,21 +77,16 @@ p{
     color: whitesmoke;   
 }
 
-.container #sign-up{
+.container #login{
     text-decoration: none;
     font-size: 20px;
     margin-left: 40%;
     color: green;
 }
 
-#sign-up:hover{
+#login:hover{
     text-decoration: underline green;
     font-size: 21px;
-}
-
-#forgot-password:hover{
-    text-decoration: underline whitesmoke;
-    font-size: 19px;
 }
 
 

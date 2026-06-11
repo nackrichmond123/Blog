@@ -170,7 +170,7 @@
     }
 
     /* The Login Responsiveness start here */
-    .container{
+    /* .container{
         width: 100%;
         margin-top: 10%;
         box-shadow: none;
@@ -217,6 +217,6 @@
 
     #password{
         margin-bottom: 1px;
-    }
+    } */
 
 }

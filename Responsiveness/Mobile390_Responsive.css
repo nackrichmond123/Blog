@@ -1,9 +1,9 @@
-@media (max-width:428px){
+@media (max-width:390px){
 
     #burgar{
         display: flex;
         font-size: 28px;
-        margin-left: -4%;
+        margin-left: 1%;
         background-color: rgb(73, 73, 55);
         color: azure;
         height: 42px;
@@ -14,7 +14,7 @@
     }
 
     nav button{
-        margin-left: 55%;
+        margin-left: 45%;
         width: 30%;
     }
 

@@ -169,14 +169,17 @@
         gap: 5px;
     }
 
+
+
     /* The Login Responsiveness start here */
-    /* .container{
+
+    .login-container{
         width: 100%;
         margin-top: 10%;
         box-shadow: none;
     }
-
-    h1{
+ 
+    #login-text{
         font-size: 2.9rem;
     }
 
@@ -188,12 +191,12 @@
         border-radius: 18px;
     }
 
-    #image-box{
+    #login-image-box{
         width: 70px;
         height: 70px;
     }
 
-    .container #forgot-password{
+    .login-container #forgot-password{
         font-size: 28px;
         margin-left: 8%;
     }
@@ -202,21 +205,27 @@
         margin-bottom: 15px;
     }
 
-    #login-btn{
+    #llogin-btn{
         width: 95%;
-        height:58px;
+        height:60px;
         margin-left: 4%;
         font-size: 35px;
         border-radius: 18px;
     }
 
-    p{
+    #no-account{
         font-size: 28px;
-        margin-left: -12%;
+        margin-top: 50px;
+        margin-bottom: 10px;
     }
 
     #password{
         margin-bottom: 1px;
-    } */
+    } 
+
+    .login-container #sign-up{
+        font-size: 30px;
+        margin-left: 38%;
+    }
 
 }

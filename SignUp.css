@@ -3,7 +3,7 @@ body{
     background-color: rgb(7, 7, 23);
 }
 
-.container{
+.signup-container{
     box-shadow: 0px 0px 3px white;
     width: 24%;
     height: 89vh;
@@ -11,7 +11,7 @@ body{
     border-radius: 20px;
 }
 
-#image-box{
+#signup-image-box{
     border: 2px solid whitesmoke;
     width: 60px;
     height: 60px;
@@ -19,7 +19,7 @@ body{
     margin: auto;
 }
 
-h1{
+#sign-up{
     font-weight: bold;
     text-align: center;
     font-size: 2.2rem;
@@ -52,7 +52,7 @@ h1{
    color: white;
 }
 
-.container #forgot-password{
+.signup-container #forgot-password{
     text-decoration: none;
     font-size: 18px;
     margin-left: 10%;
@@ -71,13 +71,13 @@ h1{
    border: none;  
 }
 
-p{
+#has-account{
     text-align: center; 
     font-size: large;
     color: whitesmoke;   
 }
 
-.container #login{
+.signup-container #login{
     text-decoration: none;
     font-size: 20px;
     margin-left: 40%;

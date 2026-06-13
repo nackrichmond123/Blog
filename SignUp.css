@@ -6,7 +6,7 @@ body{
 .signup-container{
     box-shadow: 0px 0px 3px white;
     width: 24%;
-    height: 89vh;
+    height: 93vh;
     margin: auto;
     border-radius: 20px;
 }
@@ -17,6 +17,8 @@ body{
     height: 60px;
     border-radius: 50%;
     margin: auto;
+    background-image: url(Images/Logo/Logo.png);
+    background-size: 100% 100%;
 }
 
 #sign-up{
@@ -28,15 +30,15 @@ body{
 }
 
 #email{
-    margin-bottom: 5px;
+    margin-bottom: 11px;
 }
 
 #password{
-    margin-bottom: 5px;
+    margin-bottom: 11px;
 }
 
 #username{
-    margin-bottom: 5px;
+    margin-bottom: 11px;
 }
 
 .input{

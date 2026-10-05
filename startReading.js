@@ -1,42 +1,4 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 message = `I find Love,for me.Darling just dive right in,follow my lead.
 I find a girl,beautiful and sweet.`
 

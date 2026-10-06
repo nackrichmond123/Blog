@@ -45,7 +45,7 @@ It contains an image. */
     margin-top: -11%;
     width: 45%;
     height: 80vh;
-    background-image: url(Images/Header-Image/Header.jpeg);
+    background-image: url(../Images/Header-Image/Header.jpeg);
     background-size: 100% 100%;
     backdrop-filter: blur(10%);
 }

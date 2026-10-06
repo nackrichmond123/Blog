@@ -1,3 +1,50 @@
+import { renderLatestBlogs1,renderLatestBlogs2,renderLatestBlogs3 } from "./Blogs/Latest.js";
+
+// This random number will decide which of the blogs should show on the page and refreshing it will also change.
+
+let random = Math.random();
+if (random >= 0 && random <= 0.3) {
+    console.log(random);
+    
+    renderLatestBlogs1();
+} else if (random > 0.3 && random <= 0.6) {
+    renderLatestBlogs2();
+    console.log(random);
+}else {
+    renderLatestBlogs3();
+    console.log(random);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 const navbarLinks = document.getElementById('Navbar-links');
 
